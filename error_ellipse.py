@@ -5,6 +5,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.patches import Arc
+import os
 
 def rad_to_grad(rad):
     return rad * 200 / pi
