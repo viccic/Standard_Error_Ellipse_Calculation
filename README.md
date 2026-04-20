@@ -28,7 +28,7 @@ Install dependencies:
    ```
 Activate the uvicorn server through which backend.py is running:
  ```bash
- python uvicorn backend:app --reload
+ py -m uvicorn backend:app --reload
    ```
 Open *index.html*:
 1. Upload the data txt file.
