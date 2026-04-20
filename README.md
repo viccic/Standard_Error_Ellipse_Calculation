@@ -24,11 +24,11 @@ The output of the project consists of PNG images that depict the error ellipse f
 ## Instructions
 Install dependencies:
    ```bash
-   pip install -r requirements.txt
+  pip install -r requirements.txt
    ```
 Activate the uvicorn server through which backend.py is running:
  ```bash
-   python uvicorn backend:app --reload
+ python uvicorn backend:app --reload
    ```
 Open *index.html*:
 1. Upload the data txt file.
