@@ -31,9 +31,9 @@ Activate the uvicorn server through which backend.py is running:
  ```bash
    python uvicorn backend:app --reload
    ```
-Open *index.html* 
+Open *index.html*:
 1. Upload the data txt file.
-2. Click on the **Submit** button to plot the control points.
-3. Click on the **Start Ellipse Calculation** to produce the output.
+2. Click **Submit** button to plot the control points.
+3. Click **Start Ellipse Calculation** to generate the output.
 
 
