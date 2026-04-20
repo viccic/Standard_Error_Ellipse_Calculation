@@ -30,9 +30,9 @@ class Points(BaseModel):
 
 @app.post("/upload")
 def upload(data: Points):
-    print(data.point_names)
-    print(data.point_coordinates)
-    print(data.point_sigmas)
+    #print(data.point_names)
+    #print(data.point_coordinates)
+    #print(data.point_sigmas)
 
     point_name, max_ax, min_ax, angle_rot_rad, angle_rot_grad = Calculation(
         data.point_names,

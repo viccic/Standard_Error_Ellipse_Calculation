@@ -16,9 +16,9 @@
     <div id="ellipse_container" style="display: flex; flex-direction: column; gap: 20px;"></div>
   </div>
 
-  <h3>Upload file containing the data:</h3>
+  <h3>Upload txt file containing the data:</h3>
   <form onsubmit="handleFile(event)">
-    <label> <for="myfile">Select a file:</label>
+    <label> <for="myfile">Select file:</label>
     <input type="file" id="myfile" name="myfile"><br><br>
     <label>The txt data file should have the following structure (Please also check the example of DATA.txt): </label><br><br>
     <pre>
@@ -121,7 +121,7 @@
     .then(response => response.json())
 
     .then(data => {
-      console.log(data);
+      //console.log(data);
       point_name = data.point_name;
       dir_images = data.images;
       fetchEllipseGraph(point_names,dir_images);

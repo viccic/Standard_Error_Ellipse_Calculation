@@ -120,8 +120,8 @@ def Calculation(point_names, point_coordinates, point_sigmas):
         ax.axline((point_object.x, point_object.y), slope=slope, color='green')
         ax.axline((point_object.x, point_object.y), slope=0, color='blue', linestyle='--')
 
-        print(point_object.name)
-        print(round(angle_rot, 4), round(max_ax, 3), round(min_ax, 3), round(rad_to_grad(angle_rot), 4))
+        #print(point_object.name)
+        #print(round(angle_rot, 4), round(max_ax, 3), round(min_ax, 3), round(rad_to_grad(angle_rot), 4))
         plt.gca().set_aspect('equal', adjustable='box')
 
         ax.set_aspect('equal', adjustable='box')
