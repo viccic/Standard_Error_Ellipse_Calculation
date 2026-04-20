@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from error_ellipse import Calculation
 from fastapi.staticfiles import StaticFiles
-
+import os
 
 app = FastAPI()
 
