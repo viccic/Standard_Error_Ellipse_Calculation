@@ -3,15 +3,15 @@
 
 In this project, the user opens the *index.html* to upload a txt file containing the **X and Y coordinates** of the control points of the area of interest, their **variance** values in respect to the X and Y axis and their **covariance** values. The data txt file should have the following structure (Please also check the example of **DATA.txt**):
  ```text
-   **Approximate Coordinates**
+   Approximate Coordinates
 
-    **POINT x y**
+    POINT x y
 
     *point_name x-coordinate y-coordinate*
 
-    **Variance-Covariance**
+    Variance-Covariance
 
-    *point_name*
+    point_name
 
     **sigmax2** *σx²_value*
     **sigmay2** *σy²_value*
