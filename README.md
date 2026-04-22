@@ -30,7 +30,7 @@ Activate the uvicorn server through which backend.py is running:
  ```bash
  uvicorn backend:app --reload
    ```
-Click *index.html* and then:
+Go to the local folder of the project and click *index.html* and then:
 1. Upload the data txt file.
 2. Click **Submit** button to plot the control points.
 3. Click **Start Ellipse Calculation** to generate the output.
