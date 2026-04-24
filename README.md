@@ -19,7 +19,7 @@ In this project, the user opens *index.html* to upload a `.txt` file containing 
 ## Output
 The output of the project consists of PNG images that depict the standard error ellipse for each control point based on its variance and covariance values. Example of an output PNG file:
 <img src="docs/figs/Ellipse_B.png" alt="Description of the figure" width="800"/>
- 
+A brief description of the implemented theory can be found in [Theory of the Standard Error Ellipse](docs/Theory%20of%20the%20Standard%20Error%20Ellipse.pdf).
 ## Instructions
 Install dependencies:
    ```bash
